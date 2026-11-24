@@ -19,10 +19,10 @@
 
 ## สถานะปัจจุบัน (ขึ้นเว็บจริงแล้ว)
 
-- Repo: `C:\Seminar\Seminar_Projest` (GitHub `arumaosogi-sudo/Seminar_Projest`, branch `main`)
+- Repo: `C:\Seminar\Seminar_Projest` (GitHub `arumaosogi-sudo/digital-muscle`, branch `main`)
 - เว็บจริง: https://digital-muscle.medicsync.workers.dev (Cloudflare Workers + D1, Free plan) — หน้า 3D ต้องเข้าสู่ระบบนักศึกษา
-- ต้นทางงาน 3D ของทีม: https://github.com/arumaosogi-sudo/test3D (`main` = เฉพาะไฟล์ 3D, `full-app` = เว็บทั้งเว็บที่ใช้ทดสอบ)
-  ไฟล์เนื้อหาและโมเดลใน Seminar_Projest ตรงกับ `full-app` ทุกไบต์ ณ วันที่อัปเดต · ไฟล์ Blender และสคริปต์สร้างโมเดล
+- ต้นทางงาน 3D ของทีม: https://github.com/arumaosogi-sudo/digital-muscle-3d (`main` = เฉพาะไฟล์ 3D, `full-app` = เว็บทั้งเว็บที่ใช้ทดสอบ)
+  ไฟล์เนื้อหาและโมเดลใน `digital-muscle` ตรงกับ `full-app` ทุกไบต์ ณ วันที่อัปเดต · ไฟล์ Blender และสคริปต์สร้างโมเดล
   (`build_v3.py`) อยู่ในเครื่องของคนทำ (`3d-source/`) ไม่อยู่ใน repo
 
 ### `/explore` — 3D Explore (zoom แนว BioDigital)
@@ -153,7 +153,7 @@ Sketchfab **CC BY-NC 4.0** — "Sarcomere Model" (rgmz2015) ห้ามใช�
    - endocardium และ mucosa (แสดงประกอบเท่านั้น)
 3. JS หน้า 3D เกิน budget 300 KB เล็กน้อย (~305 KB) — ถ้าจะลด ให้ดูการแยก chunk ของ drei / troika
 4. บนมือถือ แถบเลือกชนิดกล้ามเนื้อและ breadcrumb ยาวเกินจอ (ต้องเลื่อนในแถบ) — ใช้งานได้ แต่ปรับให้สวยขึ้นได้
-5. ไฟล์ต้นฉบับ Blender / `build_v3.py` ยังไม่อยู่ใน repo — ถ้าต้องการให้คนอื่นแก้โมเดลต่อได้ ควรเก็บไว้ที่ใดที่หนึ่ง (เช่น repo test3D หรือ Drive ของทีม)
+5. ไฟล์ต้นฉบับ Blender / `build_v3.py` ยังไม่อยู่ใน repo — ถ้าต้องการให้คนอื่นแก้โมเดลต่อได้ ควรเก็บไว้ที่ใดที่หนึ่ง (เช่น repo `digital-muscle-3d` หรือ Drive ของทีม)
 
 ## สิ่งที่ต้องส่งในรอบแรก (ก่อนแก้จริง)
 

@@ -3,6 +3,8 @@
 เว็บแอปสื่อการเรียนรู้เรื่องระบบกล้ามเนื้อ (พัฒนาจาก **Key Point Book 1: The skeletal muscle** ของ ผศ.ดร.กีรกานต์ สมสวน, มฟล.)
 วิชา 1305394 Seminar in Software Engineering · ทีม **MedicSync**
 
+**เว็บจริง:** https://digital-muscle.medicsync.workers.dev (Cloudflare Workers + D1)
+
 นักศึกษาสแกน QR ของ Section → Sign in ด้วย Google (@lamduan.mfu.ac.th) → หน้า Home 5 เมนู (**Pretest · Lessons · Games · 3D Explore · Posttest**)
 อาจารย์ใช้ **Admin dashboard** จัดการ Section/QR, สร้างข้อสอบแบบ Google Form, ดูผล Pretest/Posttest, ดูคะแนนเกม (Game scores) และ Export Excel
 
